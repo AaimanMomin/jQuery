@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("input").focus(function(){
+                    $(this).css("background-color","cyan");
+                });
+                $("input").blur(function(){
+                    $(this).css("background-color","gray");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1 style="color:goldenrod;">Text Box style</button></h1>
+        Name : <input id="txt" name="Name" type="text">
+       
+    </body>
+</html>
