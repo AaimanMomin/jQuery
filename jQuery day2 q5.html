@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("p").hide("slow",function(){
+                        alert("This paragraph is now hidden");
+                    })
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <h1 style="color:teal;">Call back function</h1>
+        <p>This is the paragraph to be hidded !</p>
+        <button>Click!</button>
+    </body>
+</html>
