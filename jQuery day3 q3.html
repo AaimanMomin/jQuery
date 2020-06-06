@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+               
+                $("#rd1").click(function(){
+                    $("ol").append("<li>Chickoo</li>")
+                    });
+
+                $("#rd2").click(function(){
+                    $("ol").append("<li>Papaya</li>")
+                    });
+
+                 $("#rd3").click(function(){
+                    $("ol").append("<li>Grapes</li>")
+                    })
+            })
+        </script>
+        
+    </head>
+    <body>
+        <h1 style="color: blueviolet;">Fruits</button></h1>
+       <ol>
+        <li> Mango </li>
+        <li> Apple </li>
+        <li> Banana </li>
+       </ol>
+       Chickoo :<input type="radio" id="rd1" value="chickoo"></br>
+       Papaya   :<input type="radio" id="rd2" value=" Papaya"></br>
+       Grapes   :<input type="radio" id="rd3" value="Grapes"></br>
+    </body>
+</html>

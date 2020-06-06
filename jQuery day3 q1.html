@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    var a= $("#txt1").val();
+                    $("#txt2").val(a);
+                })
+            })
+        </script>
+        
+    </head>
+    <body>
+        <h1 style="color: blueviolet;">Copy Text</button></h1>
+        Name : <input type="text" id="txt1" name="nm" placeholder ="enter your name"/>
+        <button>Click me to copy !</button></br></br>
+        Copied Name : </Canvas><input type="text" id="txt2" name="nm"/>
+        
+
+    </body>
+</html>
